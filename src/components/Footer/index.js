@@ -98,11 +98,11 @@ function Footer() {
         </Nav> */}
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon fontSize='24px' style={{ color: theme.palette.mode === 'dark' ? theme.palette.secondary[400] : theme.palette.primary[500] }} /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon fontSize='24px' style={{ color: theme.palette.mode === 'dark' ? theme.palette.secondary[400] : theme.palette.primary[500] }} /></SocialMediaIcon>
+          {/* <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon fontSize='24px' style={{ color: theme.palette.mode === 'dark' ? theme.palette.secondary[400] : theme.palette.primary[500] }} /></SocialMediaIcon> */}
           <SocialMediaIcon href={Bio.github} target="display" style={{ color: theme.palette.mode === 'dark' ? theme.palette.secondary[400] : theme.palette.primary[500] }} ><GitHubIcon fontSize='24px' /></SocialMediaIcon>
 
         </SocialMediaIcons>
-        <Logo style={{ color: theme.palette.mode === 'dark' ? theme.palette.secondary[400] : "#8400ff" }}>Rupesh Jaisawar</Logo>
+        <Logo style={{ color: theme.palette.mode === 'dark' ? theme.palette.secondary[400] : "#8400ff" }}>Bhanu Kari</Logo>
         {/* <Copyright>
           &copy; 2023 Rishav Chanda. All rights reserved.
         </Copyright> */}

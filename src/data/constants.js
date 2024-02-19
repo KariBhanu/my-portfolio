@@ -257,20 +257,46 @@ export const experiences = [
   {
     id: 0,
     img: "https://media.licdn.com/dms/image/D560BAQFaGi5xfE6yxQ/company-logo_200_200/0/1695912634499/quantiphi_logo?e=2147483647&v=beta&t=KQaxX1xevVFNyhJjK--80onR4bgQmOUpvcyCXW47vJ0",
-    role: "Software Developer",
+    role: "Senior Software Developer",
     company: "Quantiphi",
-    date: "April 2021 - Present",
-    desc: "Got converted to FTE and started working on real world projects contributed as a frontend developer, mern developer and chatbot engineer, worked with various business units and diversified teams",
+    date: "June 2022 - Present",
+    desc: "As an SD, my responsibilities encompassed implementing feature enhancements based on client requests and conceptualizing new features to meet their specific requirements. A significant portion of my contributions revolved around leveraging Angular and Node.js technologies. Additionally, I took on a managerial role, overseeing two software developers while actively leading the development of crucial features for the client.",
     skills: [
-      "MERN",
+      "MEAN",
       "Angular",
-      "Dialogflow CX",
-      "Agent Assist",
-      "Firebase",
-      "CSS Frameworks",
-      "Docker",
-      "Google Cloud",
-      "Azure"
+      "AWS",
+      "LoopBack",
+      "Hands on Table"
+    ],
+    doc: "",
+  },
+  {
+    id: 0,
+    img: "https://media.licdn.com/dms/image/D560BAQFaGi5xfE6yxQ/company-logo_200_200/0/1695912634499/quantiphi_logo?e=2147483647&v=beta&t=KQaxX1xevVFNyhJjK--80onR4bgQmOUpvcyCXW47vJ0",
+    role: "FrameWork Engineer",
+    company: "Quantiphi",
+    date: "April 2022 - June 2022",
+    desc: "In the capacity of an SD, I undertook the implementation of a multi-video acceptance system and integrated machine learning algorithms to process these videos. My role predominantly involved Python backend development. Upon receiving S3 links for the videos from users, I orchestrated the creation of EC2 instances and executed machine learning algorithms to extract various insights including precision, trajectory, and goals from the uploaded videos.",
+    skills: [
+      "Python",
+      "Angular",
+      "AWS",
+    ],
+    doc: "",
+  },
+   {
+    id: 0,
+    img: "https://media.licdn.com/dms/image/D560BAQFaGi5xfE6yxQ/company-logo_200_200/0/1695912634499/quantiphi_logo?e=2147483647&v=beta&t=KQaxX1xevVFNyhJjK--80onR4bgQmOUpvcyCXW47vJ0",
+    role: "FrameWork Engineer",
+    company: "Quantiphi",
+    date: "April 2021 - April 2022",
+    desc: "As an SD, I spearheaded the rebranding of an application for a client's client, focusing on redesigning the user interface components. This involved a comprehensive approach, where I not only designed the UI elements but also seamlessly integrated them with the Node.js backend API. Adapting to the evolving nature of the application, which transformed into a product, I played a pivotal role in revamping the interface to cater to multiple companies' distinct requirements.",
+    skills: [
+      "Mean Stack",
+      "Angular",
+      "AWS",
+      "NodeJS",
+      "High-charts JS"
     ],
     doc: "",
   },
@@ -280,14 +306,32 @@ export const experiences = [
     role: "Software Developer - Intern",
     company: "Quantiphi",
     date: "December 2020 - April 2021",
-    desc: "Joined as an intern learned web development during the four months of internship, completed a capstone project with a team of four people.",
+    desc: "Contributed to the UI team's efforts by immersing myself in AngularJS and subsequently crafting two integral components. Specifically, I engineered a stepper page designed to efficiently gather user data essential for generating comprehensive reports.",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Angular",
+      "MySQL",
+      "MongoDB",
+      "Angular Material"
+    ],
+    doc: "",
+  },
+  {
+    id: 0,
+    img: "https://media.licdn.com/dms/image/C4E0BAQE46aFrTYFFyQ/company-logo_200_200/0/1631319171445?e=2147483647&v=beta&t=YCkUQ2yZ7mQyrNnIiVWAQJfAqpmWg9o67UZb6L88jYk",
+    role: "Software Developer - Intern",
+    company: "Winjit Technologies",
+    date: "June 2020 - December 2020",
+    desc: "Collaborated within a dynamic team environment, acquiring proficiency in both front-end (ReactJS) and back-end (NodeJS) technologies. Key contributions included coding functionalities for organizing messages by date and time, enhancing the chat interface. Spearheaded a proof-of concept (POC) for the chat layout utilizing chatscope.io, a cutting-edge library at the time. This initiative significantly bolstered the project, leading to its adoption for production purposes.",
     skills: [
       "HTML",
       "CSS",
       "JavaScript",
       "ReactJS",
-      "MySQL",
-      "MongoDB"
+      "MongoDB",
+      "ChatScop.io"
     ],
     doc: "",
   }

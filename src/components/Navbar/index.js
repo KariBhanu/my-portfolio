@@ -88,7 +88,7 @@ const Navbar = () => {
           <NavLink href="#about" style={{ color: theme.palette.mode === 'dark' ? theme.palette.secondary[50] : theme.palette.primary[300] }}>About</NavLink>
           <NavLink href='#skills' style={{ color: theme.palette.mode === 'dark' ? theme.palette.secondary[50] : theme.palette.primary[300] }}>Skills</NavLink>
           <NavLink href='#experience' style={{ color: theme.palette.mode === 'dark' ? theme.palette.secondary[50] : theme.palette.primary[300] }}>Experience</NavLink>
-          <NavLink href='#projects' style={{ color: theme.palette.mode === 'dark' ? theme.palette.secondary[50] : theme.palette.primary[300] }}>Projects</NavLink>
+          {/* <NavLink href='#projects' style={{ color: theme.palette.mode === 'dark' ? theme.palette.secondary[50] : theme.palette.primary[300] }}>Projects</NavLink> */}
           <NavLink href='#contact' style={{ color: theme.palette.mode === 'dark' ? theme.palette.secondary[50] : theme.palette.primary[300] }}>Contact</NavLink>
           <MaterialUISwitch onClick={() => dispatch(setMode())} sx={{ m: 1 }} defaultChecked />
         </NavItems>
